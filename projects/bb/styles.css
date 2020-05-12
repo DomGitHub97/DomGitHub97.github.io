@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(background.png);
+}
+
+.intro {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.carousel {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cards {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cards h3{
+  text-align: center;
+}
+
+.cards p{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.cards img{
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.column1{
+  background: lightblue;
+}
+
+.column2{
+  background: gray;
+}
+
+.column3 {
+  background: lightblue;
+}
+
+.btn-primary{
+  margin-bottom: 20px;
+}
+
+.contact{
+  text-align: center;
+  background: gray;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.btn-block{
+  font-weight: bold;
+  background: lightblue;
+}
+
+.section p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer{
+  background: lightgray;
+  text-align: center;
+}

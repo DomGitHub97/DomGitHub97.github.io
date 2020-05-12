@@ -38,7 +38,7 @@ nav ul{
   display:grid;
   grid-gap: 10px;
   list-style: none;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 nav a{
@@ -74,6 +74,7 @@ nav a:hover{
 .text {
   background: #3a3b3a;
   box-shadow: 5px 5px black;
+  margin-top: 10px; 
 }
 
 .text li{
@@ -82,7 +83,15 @@ nav a:hover{
   text-align: left;
 }
 
+.btn {
+  background: lightgray;
+  color: black;
+}
 
+.btn:hover {
+  background: black;
+  color: white;
+}
 
 @media(max-width:700px){
   nav ul{

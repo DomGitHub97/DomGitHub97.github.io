@@ -1,0 +1,54 @@
+/*Dominic Bell
+  liveserver assignment
+  2-12-20
+  styles.css*/
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  background-color: #CE4257;
+  color: black;
+  text-align: center;
+}
+
+.socialmedia {
+  position: fixed;
+  top: 6px;
+  right: 10px;
+  z-index: 101;
+}
+
+div.container {
+  border: #4F000B 6px solid;
+  background-color: #FF7F51;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 50px 20px 50px;
+  font-size: 1.3em;
+}
+
+footer {
+  background-color: black;
+  color: gray;
+}
+
+div.pricing {
+  border: #4F000B 6px solid;
+  background-color: #FF7F51;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 50px 20px 50px;
+  font-size: 1.1em;
+  text-align: left;
+  list-style-position: inside;
+}
+
+nav {
+  border: black 4px dotted;
+  font-size: 1.2em;
+}
+
+.setright {
+  position: absolute;
+  right: 100px;
+}
