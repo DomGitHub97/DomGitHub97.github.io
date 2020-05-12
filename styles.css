@@ -74,7 +74,12 @@ nav a:hover{
 .text {
   background: #3a3b3a;
   box-shadow: 5px 5px black;
-  margin-top: 10px; 
+  margin-top: 10px;
+}
+
+.text h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
 }
 
 .text li{
